@@ -14,7 +14,7 @@ async function uploadImage() {
         const response = await fetch("https://api.github.com/repos/radheeshm/stock/contents/images/" + file.name, {
             method: "PUT",
             headers: {
-                "Authorization": "token YOUR_GITHUB_PERSONAL_ACCESS_TOKEN",
+                "Authorization": "token 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",
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
